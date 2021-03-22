@@ -1,15 +1,3 @@
-<img src="https://raw.githubusercontent.com/trepichio/trepichio/master/assets/intro.gif" alt="👋 Hi there! I'm LUIZ GUSTAVO LAZARINI|https://github.com/LuizGustavoLazarini" title="👋 Hi there! I'm LUIZ GUSTAVO LAZARINI|https://github.com/LuizGustavoLazarini" style="max-width:100%;">
-
-
-
-
-
-
-
-
-
-
-
 ### Hi there 👋
 
 <!--
