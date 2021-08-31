@@ -87,7 +87,7 @@ html,body{
   transition: all 0.5s ease;
 }
 .back-face ul a:hover{
-  color: #1cc7d0;
-  border-color: #1cc7d0;
+  color: #ffffff;
+  border-color: #a7a8a8;
   background: linear-gradient(375deg, transparent, transparent);
 }
