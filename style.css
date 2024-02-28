@@ -21,8 +21,8 @@ body {
 }
 
 .wrapper {
-    height: 900px;
-    width: 640px;
+    height: 800px;
+    width: 540px;
     position: relative;
     transform-style: preserve-3d;
     perspective: 1000px;
