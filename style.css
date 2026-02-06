@@ -25,7 +25,7 @@ body {
     width: 440px;
     position: relative;
     transform-style: preserve-3d;
-    perspective: 700px;
+    perspective: 500px;
 }
 
 .wrapper .card {
