@@ -9,8 +9,10 @@
 html,
 body {
     display: grid;
-    height: 80%;
-    width: 80%;
+    height: 1000%;
+    width: 1000%;
+    margin: 0;
+    padding: 0;
     place-items: center;
     background: linear-gradient(375deg, #1cc7d0, #2ede98);
 }
@@ -21,8 +23,8 @@ body {
 }
 
 .wrapper {
-    height: 400px;
-    width: 400px;
+    height: 60vh;
+    width: 60vh;
     position: relative;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -47,8 +49,8 @@ body {
 }
 
 .wrapper .card img {
-    height: 80%;
-    width: 80%;
+    height: 1000%;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -94,15 +96,15 @@ body {
 
 .back-face ul a {
     position: relative;
-    height: 600px;
-    width: 200px;
+    height: 15vh;
+    width: 15vh;
     border: none;
     outline: none;
     color: white;
     background: #111;
     cursor: pointer;
     border-radius: 50%;
-    font-size: 40px;
+    font-size: 2vh;
     font-family: 'Raleway', sans-serif;
 }
 
