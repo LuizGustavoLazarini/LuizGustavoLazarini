@@ -67,8 +67,8 @@ body {
 }
 
 .wrapper .back-face img {
-    height: 300px;
-    width: 300px;
+    height: 600px;
+    width: 600px;
     padding: 10px;
     border-radius: 50%;
     background: linear-gradient(375deg, #1cc7d0, #2ede98);
@@ -94,7 +94,7 @@ body {
 
 .back-face ul a {
     position: relative;
-    height: 60px;
+    height: 600px;
     width: 200px;
     border: none;
     outline: none;
@@ -149,8 +149,8 @@ body {
 
 .back-face ul a {
     display: block;
-    height: 80px;
-    width: 80px;
+    height: 480px;
+    width: 480px;
     color: #fff;
     text-align: center;
     margin: 0 20px;
