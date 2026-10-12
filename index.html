@@ -16,10 +16,15 @@
             <div class="front-caption">
                 <span class="eyebrow">CARTÃO DIGITAL</span>
                 <span class="front-name">Luiz Gustavo Lazarini</span>
-                <span class="flip-hint">Passe o cursor para conhecer mais <span aria-hidden="true">↻</span></span>
+                <button class="flip-button" type="button" data-flip-card aria-label="Virar o cartão para ver os contatos">
+                    Ver contatos <span aria-hidden="true">↗</span>
+                </button>
             </div>
         </div>
         <div class="card back-face">
+            <button class="flip-button flip-button-back" type="button" data-flip-card aria-label="Voltar à frente do cartão">
+                <span aria-hidden="true">↶</span> Voltar à capa
+            </button>
             <img src="IMG/EU (4).jpeg" alt="Retrato de Luiz Gustavo Lazarini">
             <div class="info">
                 <p class="eyebrow">OLÁ, EU SOU</p>
@@ -40,6 +45,15 @@
         </div>
     </main>
     <footer>Luiz Gustavo Lazarini <span aria-hidden="true">·</span> The Guardian</footer>
+    <script>
+        const card = document.querySelector('.wrapper');
+
+        card.addEventListener('click', (event) => {
+            if (event.target.closest('[data-flip-card]')) {
+                card.classList.toggle('is-flipped');
+            }
+        });
+    </script>
 </body>
 
 </html>
